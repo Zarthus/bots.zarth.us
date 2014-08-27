@@ -99,106 +99,32 @@ $navbar = array
 	 *		'separator-before': Specific to 'pages', insert a line separator in the dropdown menu.
 	 *		'separator-after' : Specific to 'pages', insert a line separator in the dropdown menu.
 	 */
-	'home' => array
+	'index' => array
 	(
 		'name' => 'Home',
 
-		'href' => 'home',
+		'href' => 'index',
 
-		'icon' => 'fa-home',
+		'icon' => 'fa-home'
 	),
 
-	'project' => array
+	'reconcile' => array
 	(
-		'name' => 'Projects',
+		'name' => 'Reconcile',
 
-		'href' => 'projects',
+		'href' => 'reconcile',
 
-		'icon' => 'fa-folder-open',
-
-		'pages' => array
-		(
-			'allproj' => array
-			(
-				'name' => 'All Projects',
-
-				'href' => 'projects',
-				'title' => 'Projects I\'ve made in the past',
-				'icon' => 'fa-sitemap',
-
-				'separator-after' => true,
-			),
-
-			'zarth.us' => array
-			(
-				'name' => 'zarth.us',
-
-				'href' => 'https://github.com/Zarthus/zarth.us/',
-				'icon' => 'fa-heart-o',
-			),
-
-			'twitchbot' => array
-			(
-				'name' => 'Twitch IRC bot',
-
-				'href' => 'https://github.com/Zarthus/twitchbot/',
-				'icon' => 'fa-code-fork',
-			),
-
-			'euler' => array
-			(
-				'name' => 'Project Euler',
-
-				'href' => 'https://github.com/Zarthus/School/',
-				'icon' => 'fa-question',
-			),
-
-			'snippets' => array
-			(
-				'name' => 'Code Snippets',
-
-				'href' => 'https://github.com/Zarthus/Code-Snippets/',
-				'icon' => 'fa-code',
-			),
-		),
+		'icon' => 'fa-code'
 	),
 
-	'aboutme' => array
+	'elissa' => array
 	(
-		'name' => 'About Me',
+		'name' => 'Elissa',
 
-		'href' => 'aboutme',
+		'href' => 'elissa',
 
-		'icon' => 'fa-heart',
-	),
-
-    'paste' => array
-    (
-            'name' => 'Paste',
-
-            'href' => 'http://paste.zarth.us',
-
-            'icon' => 'fa-file-text'
-    ),
-
-	'github' => array
-	(
-		'name' => 'Github',
-
-		'href' => 'https://github.com/zarthus/',
-		'title' => 'This website has it\'s own repository over there too!',
-
-		'icon' => 'fa-github',
-	),
-
-	'contact' => array
-	(
-		'name' => 'Contact',
-
-		'href' => 'contact',
-
-		'icon' => 'fa-user',
-	),
+		'icon' => 'fa-cloud'
+	)
 );
 
 # EOF
