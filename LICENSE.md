@@ -1,0 +1,1 @@
+License can be found [here](https://github.com/Zarthus/zarth.us/blob/master/LICENSE.md)
