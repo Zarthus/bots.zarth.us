@@ -2,7 +2,7 @@
 /**
  *	Home
  *
- *	Index page for zarth.us
+ *	Index page for bots.zarth.us
  *
  *	@package	zarth.us
  *	@author		Zarthus <zarthus@zarth.us>
@@ -10,7 +10,7 @@
  *	@license	MIT - View http://zarth.us/licenses/zarth.us or the LICENSE.md file in the github repository
  *	@since		18/03/2014
  */
-define("USER_PATH", "Home - home.php");
+define("USER_PATH", "Home - index.php");
 require_once('includes/php/init.php');
 ?>
 <!DOCTYPE html>
@@ -41,7 +41,7 @@ require_once('includes/php/init.php');
 				</h2>
 				<p>
 					Reconcile is my first python project, it's an utility bot for IRC.
-                                        Reconcile was created because I wasn't super fond of CloudBot, and wanted to fix those things I thought that lacked myself.
+					Reconcile was created because I wasn't super fond of CloudBot, and wanted to fix those things I thought that lacked myself.
 				</p>
 			</div>
 

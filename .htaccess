@@ -1,7 +1,7 @@
 RewriteEngine On
 
 # Set directory index to home.
-DirectoryIndex home.php
+DirectoryIndex index.php
 
 # Remove file extension
 RewriteCond %{REQUEST_FILENAME} !-d

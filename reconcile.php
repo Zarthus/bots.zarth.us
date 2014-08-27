@@ -1,16 +1,16 @@
 <?php
 /**
- *	Contact Me
+ *	Reconcile
  *
- *	This page provides information on how you could contact me.
+ *	Contains information about how reconcile works, how to request it and which commands it has.
  *
- *	@package	zarth.us
+ *	@package	bots.zarth.us
  *	@author		Zarthus <zarthus@zarth.us>
- *	@link		https://github.com/Zarthus/zarth.us
+ *	@link		https://github.com/Zarthus/bots.zarth.us
  *	@license	MIT - View http://zarth.us/licenses/zarth.us or the LICENSE.md file in the github repository
- *	@since		20/03/2014
+ *	@since		25/08/2014
  */
-define("USER_PATH", "Contact Me - contact.php");
+define("USER_PATH", "Reconcile Bot Information - reconcile.php");
 require_once('includes/php/init.php');
 ?>
 <!DOCTYPE html>
@@ -44,15 +44,15 @@ require_once('includes/php/init.php');
 					Reconcile's github page can be found <a href="https://github.com/zarthus/reconcile">here.</a>
 				</p>
 			</div>
-                        <div class="col-md-offset-2 col-md-8">
-                                <h3>Request Reconcile</h3>
-                                <p>
-                                        To request Reconcile for your channel on EsperNet, ping <code>Zarthus</code> in <code>#zarthus</code>.
-                                        Alternatively, just use <code>/invite Reconcile #channel</code>. My configuration of Reconcile will make it automatically add your channel to its autojoin.
+				<div class="col-md-offset-2 col-md-8">
+					<h3>Request Reconcile</h3>
+					<p>
+						To request Reconcile for your channel on EsperNet, ping <code>Zarthus</code> in <code>#zarthus</code>.
+						Alternatively, just use <code>/invite Reconcile #channel</code>. My configuration of Reconcile will make it automatically add your channel to its autojoin.
 					<br />
 					Reconcile will automatically part empty channels.
-                                </p>
-                        </div>
+				</p>
+			</div>
 			<div class="col-md-offset-2 col-md-8">
 				<h3>Commands</h3>
 				<p>
