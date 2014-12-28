@@ -42,10 +42,10 @@ require_once('includes/php/init.php');
 					<br />
 					CloudBots official channel is also on EsperNet, simply join <code>#cloudbot</code>
 					<br />
-					The instance of CloudBot I run is a legacy build, which runs on python 2.7.
+					The instance of CloudBot I run is called 'Refresh', which runs on python 3.4.
 				</p>
 				<p>
-					Elissa's github page can be found <a href="https://github.com/cloudev/cloudbot">here.</a>
+					Elissa's github page can be found <a href="https://github.com/cloudbotirc/cloudbot">here.</a>
 				</p>
 			</div>
 			<div class="col-md-offset-2 col-md-8">
